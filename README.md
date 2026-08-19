@@ -1,10 +1,10 @@
-# 🛒 Sales ETL Pipeline
+# Production-style sales ETL Pipeline
 
 A production-style **ETL (Extract → Transform → Load)** pipeline built with **Python**, **Pandas**, **SQLite**, and **SQL** — designed to process raw sales CSV data, clean and validate it, load it into a relational database, and generate beautiful analytical reports with charts.
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
 - ✅ **Extract** raw sales data from CSV files
 - ✅ **Transform** — clean dirty data, validate fields, enrich with calculated columns
@@ -20,7 +20,7 @@ A production-style **ETL (Extract → Transform → Load)** pipeline built with 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 sales-etl/
@@ -45,14 +45,14 @@ sales-etl/
 │
 ├── app.py                      # Flask REST API
 ├── Dockerfile                  # Docker support
-├── main.py                     # 🚀 Pipeline entry point
+├── main.py                     # Pipeline entry point
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Tool         | Purpose                          |
 | ------------ | -------------------------------- |
@@ -68,7 +68,7 @@ sales-etl/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -95,7 +95,7 @@ After running, open `reports/sales_report_XXXXXX.html` in your browser to see th
 
 ---
 
-## 🔄 ETL Flow
+## ETL Flow
 
 ```
 [CSV File]
@@ -115,7 +115,7 @@ After running, open `reports/sales_report_XXXXXX.html` in your browser to see th
 
 ---
 
-## 🌐 Flask REST API
+## Flask REST API
 
 ```bash
 python app.py
@@ -132,7 +132,7 @@ python app.py
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ```bash
 docker build -t sales-etl .
@@ -141,7 +141,7 @@ docker run sales-etl
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 python -m unittest tests/test_transformer.py -v
@@ -149,7 +149,7 @@ python -m unittest tests/test_transformer.py -v
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### `sales` table
 
