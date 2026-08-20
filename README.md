@@ -6,17 +6,17 @@ A production-style **ETL (Extract → Transform → Load)** pipeline built with 
 
 ## Project Highlights
 
-- ✅ **Extract** raw sales data from CSV files
-- ✅ **Transform** — clean dirty data, validate fields, enrich with calculated columns
-- ✅ **Load** into a **SQLite** database using raw **SQL**
-- ✅ **Reject** invalid records with reasons logged separately
-- ✅ **Generate** SQL-powered analytics reports (revenue by region, category, trends)
-- ✅ **HTML Report** with 4 charts — bar, line, pie graphs
-- ✅ **ETL Audit Log** — tracks every pipeline run with stats
-- ✅ **Unit Tested** with `unittest`
-- ✅ **Structured logging** to file and console
-- ✅ **Flask REST API** — expose sales data as JSON endpoints
-- ✅ **Docker** support — run anywhere with one command
+- **Extract** raw sales data from CSV files
+- **Transform** — clean dirty data, validate fields, enrich with calculated columns
+- **Load** into a **SQLite** database using raw **SQL**
+- **Reject** invalid records with reasons logged separately
+- **Generate** SQL-powered analytics reports (revenue by region, category, trends)
+- **HTML Report** with 4 charts — bar, line, pie graphs
+- **ETL Audit Log** — tracks every pipeline run with stats
+- **Unit Tested** with `unittest`
+- **Structured logging** to file and console
+- **Flask REST API** — expose sales data as JSON endpoints
+- **Docker** support — run anywhere with one command
 
 ---
 
